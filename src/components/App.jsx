@@ -1,16 +1,16 @@
-export const App = () => {
+import { useState } from 'react';
+
+// export const App = () => {
+// return <button className="square">X</button>;
+// }
+
+export default function Square() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <button className="square">X</button>
+      <button className="square">X</button>
+    </>
   );
-};
+}
+
+
